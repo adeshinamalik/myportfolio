@@ -391,7 +391,6 @@ img#test {
 .skills-container {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid red;
   margin: 6% auto;
   width: 90%;
   align-items: center;
@@ -419,4 +418,13 @@ img#test {
 .skills-title span:hover {
   font-size: 6.1rem;
   color: #f07b61;
+}
+#about-text ul {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+#about-text li img {
+  width: 1.6rem;
+  border: 1;
 }
