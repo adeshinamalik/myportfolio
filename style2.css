@@ -42,6 +42,7 @@
   }
   #about-me p {
     text-align: center;
+    width: 90vw;
   }
   #sec-box {
     left: 0%;
@@ -208,6 +209,15 @@
     right: 50px;
     top: 20px;
   }
+  #projects {
+    padding-top: 170px;
+  }
+  #myprojects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #about-text ul {
+    justify-content: center;
+  }
 }
 
 /* =============================================================== */
@@ -253,7 +263,7 @@
   }
   #about-me {
     position: relative;
-    height: 800px;
+    /* height: 800px; */
   }
   #about-me p {
     font-size: 20px;

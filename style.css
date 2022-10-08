@@ -229,17 +229,22 @@ button {
   transform: translateX(-50%);
 }
 .col1 {
-  width: 400px;
-  height: 390px;
-  background-color: #595959;
-  opacity: 0.3;
+  position: relative;
+  /* width: 700px; */
+  /* height: 390px; */
+  /* background-color: #595959; */
+  /* opacity: 0.3; */
   border-radius: 14px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.col1 img {
+  width: 100%;
+}
 #myprojects {
+  padding: 20px;
   margin-top: 30px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-row-gap: 30px;
   grid-column-gap: 40px;
 }
@@ -359,14 +364,16 @@ input {
   position: relative;
 }
 #projects {
-  padding-top: 50px;
+  position: relative;
+  width: 100vw;
+  /* padding-top: 50px;
   position: relative;
   width: fit-content;
   height: fit-content;
   left: 50%;
   transform: translateX(-50%);
-  padding-bottom: 50px;
-  display: none;
+  padding-bottom: 50px; */
+  /* display: none; */
 }
 body > * {
   width: 100vw;
@@ -427,4 +434,7 @@ img#test {
 #about-text li img {
   width: 1.6rem;
   border: 1;
+}
+#projects button {
+  display: none;
 }
