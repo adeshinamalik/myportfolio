@@ -42,6 +42,7 @@
             </ul>
         </nav>
         <section id="home">
+            {% comment %} style="background-image: url({% static 'images/MaskGroup3.svg' %});" {% endcomment %}
             <div id="word">
                 <h1>Fullstack Web <br> developer</h1>
                 <p>Hi, I'm Ahmed.</p>
@@ -231,7 +232,7 @@
                     <label class="ye" for="email">Your Email</label>
                     <input type="text" id="name" name="email">
                     <label class="ye" for="message">Your Message</label>
-                    <input id="message" cols="10" rows="10" name="message">
+                    <textarea id="message" cols="10" rows="10" name="message" size="5"></textarea>
                     <input type="submit" id="submit" value="Get in touch">
                 </form>
             </div>
