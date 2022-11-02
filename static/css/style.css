@@ -60,7 +60,7 @@ a {
   color: #b8b8b8;
 }
 #home {
-  background-image: url('images/Mask\ Group\ 3.svg');
+  background-image: url('../images/Mask\ Group\ 3.svg');
   background-size: cover;
   background-repeat: no-repeat;
   height: 768px;
