@@ -12,7 +12,7 @@ def message(request):
         email = request.POST['email']
         message = request.POST['message']
         information = info(name=name, email=email, message=message)
-        information.save()
+        information.save("name", "email", "message")
         return redirect('message')
     else:
         return render(request, 'index.html')
